@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{   
+    height: 100vh;
+    width: 100vw;    
+}
+.navbar{
+    display: flex;
+    height: 75px;                                                                              
+    width:101vw;
+    border: 0px solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(63, 61, 61);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+nav .logo{
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style:none ;
+}
+nav ul li a{
+    color:white;
+    margin: 15px 20px;
+}
+.main{
+    height: 670px;
+    width: 101vw;
+    align-items: center;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1639595930408-d79405e4b1d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat;
+    background-size: cover;
+    border: 4px solid #3e3c3c;  
+ }
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    margin-left: 800px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 5px groove teal;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+span{
+    color: teal;
+    margin-left: 2rem;
+    font-size: 3.5rem;
+}
+p{
+    color: white;
+    font-size: 2rem;
+    margin: 65px;
+    padding: 2px;
+    justify-content: space-around;
+    letter-spacing: 0.5rem;
+}
+.footer{
+    background-color:rgb(63, 61, 61);
+    display: flex;
+    justify-content: center;
+    height: 105px;
+    width: 101vw;
+}
+.footer p{
+margin-top: 0px;
+}
